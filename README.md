@@ -7,6 +7,15 @@
 - Add `BOOST_ROOT` with boost's directory path to environment variables
 - Open solution and build
 
+# Building for Linux (requires CMake)
+- Open terminal in project root directory
+```
+mkdir build
+cd build
+cmake ..
+make
+```
+
 # Running
 - start server to accept files
 ```
