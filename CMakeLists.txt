@@ -2,6 +2,8 @@ cmake_minimum_required (VERSION 3.2.2)
 
 project("FileTransfer" CXX)
 
+SET(CMAKE_CXX_STANDARD 11)
+SET(CMAKE_CXX_STANDARD_REQUIRED ON)
 SET(Boost_USE_MULTITHREAD ON)
 FIND_PACKAGE(Boost 1.58.0 REQUIRED COMPONENTS log_setup log system thread)
 
